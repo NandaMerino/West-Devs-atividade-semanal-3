@@ -1,1 +1,24 @@
 @import url("shared.css");
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.grid-latest-news {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 135px;
+}
+
+.card hr {
+    size: 10;
+    width: 5%;
+    background-color: #FFAF2E;
+}
+
+.card h2 h3 {
+    text-align: center;
+    align-items: center;
+}
