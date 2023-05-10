@@ -1,24 +1,37 @@
 @import url("shared.css");
-* {
-    font-family: 'Inter', sans-serif;
+
+.latest-news-text-article {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
 }
 
+.latest-news-text-article h4 {
+    font-size: 1.125rem;
+    color: var(--font-primary-color-latest-news);
+    margin-bottom: 0.625rem;
+    margin-top: 8.125rem;
+}
 
+.latest-news-text-article h2 {
+    font-size: 2.25rem;
+    color: var(--font-secondary-color-latest-news);
+    margin-bottom: 1.125rem;
+}
 
-.grid-latest-news {
+.card-latest-news {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 135px;
+    margin: 80px 135px 25px 135px;
 }
 
-.card hr {
-    size: 10;
-    width: 5%;
-    background-color: #FFAF2E;
+.card p {
+    color: var(--font-tertiary-color-latest-news);
 }
 
-.card h2 h3 {
-    text-align: center;
-    align-items: center;
+.card h5 {
+    color: var(--font-quaternary-color-latest-news);
 }
