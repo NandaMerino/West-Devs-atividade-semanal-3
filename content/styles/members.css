@@ -1,1 +1,70 @@
 @import url("shared.css");
+
+* {
+    font-family: var(--font-members);
+}
+
+button {
+    appearance: none;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.members-text-article {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.members-text-article h4 {
+    font-size: 1.125rem;
+    color: var(--primary-color-members);
+    margin-bottom: 0.625rem;
+    margin-top: 8.125rem;
+}
+
+.members-text-article h1 {
+    font-size: 2.25rem;
+    color: var(--font-primary-color-members);
+    margin-bottom: 1.125rem;
+}
+
+.members-text-article p {
+    font-size: 1rem;
+    width: 29rem;
+    color: var(--font-secondary-color-members);
+}
+
+.members-team-article {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-menu {
+    display: flex;
+    margin: 2.375rem 3.125rem 0 3.125rem;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  var(--primary-color-members-opacity);
+    border-radius: 0.875rem;
+    width: 29.625rem;
+    height: 4rem;
+}
+
+.btn-selected, .btn-unselected {
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 0.875rem;
+}
+
+.btn-selected {
+    color: #fff;
+    background-color: var(--primary-color-members);
+}
+
+.btn-unselected {
+    color: var(--font-primary-color-members);
+}
