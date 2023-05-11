@@ -1,5 +1,6 @@
 @import url("shared.css");
 
+
 .latest-news-text-article {
     display: flex;
     text-align: center;
@@ -20,18 +21,107 @@
     margin-bottom: 1.125rem;
 }
 
-.card-latest-news {
+.ln-list {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    padding: 135px;
-    margin: 80px 135px 25px 135px;
+    text-align: center;
 }
 
-.card p {
+.ln-card {
+    display: inline-block;
+    width: 21.25rem;
+    height: 28.688rem;
+    margin: 0rem 1.875rem 0rem 1.875rem;
+    border: 2px solid rgb(243, 243, 243, 0.5);
+    border-radius: 0.875rem;
+    transition: all 0.5s;
+}
+
+.ln-card.content {
+    display: flex;
+    flex-direction: row;  
+}
+
+.ln-card-text {
+    display: block;
+    text-align: left;
+}
+
+.ln-card-text p {
+    font-family: var(--font-members);
+    font-size: 20px;
     color: var(--font-tertiary-color-latest-news);
 }
 
-.card h5 {
+.ln-card-text h4 {
+    font-family: var(--font-members);
+    font-size: 16px;
     color: var(--font-quaternary-color-latest-news);
+}
+
+/*==========Footer================*/
+
+.footer-area {
+    background-color: var(--footer-background-primary-color);
+    /*padding: 70px o;*/
+}
+
+.row-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 14.313rem;
+    width: 74.063rem;
+    margin: 74.78px 124px 85.22px 131px;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.col-links {
+    width: 6.625rem;
+    padding: 0 15px;
+    height: 14rem;
+    width: 5.875rem;
+}
+
+.col-links h4{
+    font-size: var(--font-primary-list-footer-size);
+	color: var(--font-primary-footer-latest-news);
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    width: 12.438rem;
+}
+
+.col-links p {
+    font-size: var(--font-secondary-footer-size);
+	color: var(--font-secondary-footer-latest-news);
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    width: 12.438rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #FFFFFF;
+    height: 3rem;
+    width: 21.188rem;
+    padding: 1px;
+}
+
+input {
+    flex-grow:2;
+    border: none;
+}
+
+button {
+    border: 1px solid #FFFFFF;
+    background:FFFFFF;
+    color: var(--footer-background-primary-color);
 }

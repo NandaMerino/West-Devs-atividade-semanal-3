@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <header>
@@ -49,28 +50,97 @@
                     <h2>Latest News</h2>
                 </div>
             </article>
-            <div class="card-latest-news">
-                <div class="card">
-                    <img src="./content/img/latest-news/1-latest-news-notebook.svg" alt="notebook">
-                    <p>It Does Not Matter Hows<br>Slowly go as Long</p>
-                    <h5>Continue reading</h5>
-                </div>
-                <div class="card">
-                    <img src="./content/img/latest-news/2-latest-news-girl.svg" alt="news-girl">
-                    <p>Netbook Network Added<br>New Photo Filter</p>
-                    <h5>Continue reading</h5>
-                </div>
-                <div class="card">
-                    <img src="./content/img/latest-news/3-latest-news-pin.svg" alt="news-pin">
-                    <p>We Optimized Netbooks<br>Better Navigation</p>
-                    <h5>Continue reading</h5>
-                </div>
-            </article>
+            <div class="latest-news-container">
+                <ul class="ln-list">
+                    <li class="ln-card">
+                        <img src="./content/img/latest-news/1-latest-news-notebook.svg" alt="notebook">
+                        <div class="ln-card-content">
+                            <div class="image">
+                                <img src="./content/img/latest-news/Line 3.svg" alt="line3">
+                            </div>
+                            <div class="ln-card-text">
+                                <p>It Does Not Matter Hows<br>Slowly go as Long</p>
+                                <h4>Continue reading<img src="./content/img/latest-news/ArrowRight.svg" alt="ArrowRight"></h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ln-card">
+                        <img src="./content/img/latest-news/2-latest-news-girl.svg" alt="news-girl">
+                        <div class="ln-card-content">
+                            <div class="image">
+                                <img src="./content/img/latest-news/Line 3.svg" alt="line3">
+                            </div>
+                            <div class="ln-card-text">
+                                <p>Netbook Network Added<br>New Photo Filter</p>
+                                <h4>Continue reading<img src="./content/img/latest-news/ArrowRight.svg" alt="ArrowRight"></h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ln-card">
+                        <img src="./content/img/latest-news/3-latest-news-pin.svg" alt="news-pin">
+                        <div class="ln-card-content">
+                            <div class="image">
+                                <img src="./content/img/latest-news/Line 3.svg" alt="line3">
+                            </div>
+                            <div class="ln-card-text">
+                                <p>We Optimised Netbooks<br>Better Navigation</p>
+                                <h4>Continue reading<img src="./content/img/latest-news/ArrowRight.svg" alt="ArrowRight"></h4>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
-
     </main>
-    <footer>
-
+    <footer class="footer-area">
+        <div class="container-links">
+            <div class="row-links">
+                <div class="col-links">
+                    <h4>Home</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-links">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">NewsFeed</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Friends</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-links">
+                    <h4>Main Links</h4>
+                    <ul>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="#">Activity</a></li>
+                        <li><a href="#">Groups</a></li>
+                        <li><a href="#">Private Group</a></li>
+                    </ul>
+                </div>
+                <div class="col-links">
+                    <h4>Subscribe Cirkle<br>Newsletter</h4>
+                    <p>Subscribe to be the first one to know<br>about updates. Enter your email</p>
+                    <form action="">
+                        <input type="email">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

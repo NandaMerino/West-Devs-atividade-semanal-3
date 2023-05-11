@@ -8,5 +8,14 @@
     --font-secondary-color-latest-news: #0A093D;
     --font-tertiary-color-latest-news: #2F2C4A;
     --font-quaternary-color-latest-news: #656464;
+    --font-primary-footer-latest-news: #FFFFFF;
+    --font-secondary-footer-latest-news: #E7E7E7;
+
+    --font-primary-list-footer-size: 20px;
+    --font-secondary-list-footer-size: 16px;
+
+    --footer-background-primary-color: #2B2B39;
+    --footer-background-secondary-color: #20202D;
+
     --font-members: 'Inter', sans-serif;
 }
