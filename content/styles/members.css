@@ -126,7 +126,7 @@ button {
     box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
 }
 
-@media (min-width: 200px) and (max-width: 750px) {
+@media (min-width: 0px) and (max-width: 575px) {
     
 * {
     margin: 0;
@@ -199,23 +199,29 @@ button {
 }
 
 .member-card:nth-last-child(-n+2) {
-    margin-top: 0.25rem;
-  }
+margin-top: 0.25rem;
+}
 
 .member-card img{
     width: 70%;
 }
 
 .member-card h1{
-    margin-top: 1.25rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: var(--font-primary-color-members);
+margin-top: 1.25rem;
+font-size: 0.75rem;
+font-weight: 700;
+color: var(--font-primary-color-members);
 }
 
 .member-card h4{
-    font-size: 0.5rem;
-    font-weight: 400;
-    color: var(--font-secondary-color-members);
+font-size: 0.5rem;
+font-weight: 400;
+color: var(--font-secondary-color-members);
 }
+}
+
+@media (min-width: 440px) and (max-width: 575px) {
+    .members {
+        margin-left: 1.4rem;
+    }
 }
