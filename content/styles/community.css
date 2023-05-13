@@ -142,3 +142,75 @@ body{
     box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
     border-radius: 24px;
 }
+
+@media (max-width: 600px){
+
+    .our-community-link{
+        font-size: 13px;
+    }
+
+    .our-community h2{
+        font-size: 25px;
+        padding-bottom: 7px;
+    }
+
+    .our-community-text{
+        font-size: 12px;
+        line-height: 15px;
+        width: 300px;
+    }
+
+    .communities-container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .communities{
+        width: 320px;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+    .communities h3{
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        padding-left: 20px;
+    }
+
+    .communities p{
+        font-size: 12px;
+        line-height: 13px;
+        padding-right: 18px;
+        padding-left: 20px;
+        padding-bottom: 12px;
+    }
+
+    .icon-yellow{
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .icon-red{
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .icon-blue{
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .communities img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-custom-module{
+        margin-bottom: 29px;
+    }
+}
