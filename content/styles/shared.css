@@ -11,11 +11,11 @@
     --font-primary-footer-latest-news: #FFFFFF;
     --font-secondary-footer-latest-news: #E7E7E7;
 
-    --font-primary-list-footer-size: 20px;
-    --font-secondary-list-footer-size: 16px;
+    --font-primary-list-footer-size-latest-news: 20px;
+    --font-secondary-list-footer-size-latest-news: 16px;
 
-    --footer-background-primary-color: #2B2B39;
-    --footer-background-secondary-color: #20202D;
+    --footer-background-primary-color-latest-news: #2B2B39;
+    --footer-background-secondary-color-latest-news: #20202D;
 
     --font-members: 'Inter', sans-serif;
 }
