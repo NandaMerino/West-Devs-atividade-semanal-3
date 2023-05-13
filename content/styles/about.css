@@ -1,1 +1,94 @@
 @import url("shared.css");
+
+.container-about {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.title-about {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px 0 80px;
+}
+
+.title-about span {
+    color: #217BF4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.title-about h2 {
+    color: #0A093D;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+.title-about p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.title-about li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+}
+
+.about-video img {
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.about-img img {
+    padding: 9px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 66px;
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.box h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+}
+
+h3 {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.point {
+    margin-right: 10px;
+}
