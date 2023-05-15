@@ -1,1 +1,216 @@
 @import url("shared.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.comunnity{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    padding: 50px;
+}
+
+.our-community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-community-link{
+    width: 135px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #217BF4; 
+    padding-bottom: 9px;
+    padding-top: 50px;
+}
+
+.our-community h2{
+    width: 441px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #0A093D;
+    padding-bottom: 19px;
+}
+
+.our-community-text{
+    width: 421px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #656464;
+    padding-bottom: 20px;
+}
+
+.communities-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    padding: 35px;
+    padding-bottom: 80px;
+}
+
+.communities{
+    background-color: #FFFFFF;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.communities-members{
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+}
+
+.communities h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2F2C4A;
+    padding-left: 25px;
+    padding-bottom: 14px;
+}
+
+.custom-module{
+    margin-top: 0.9rem;
+}
+
+.communities p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #656464;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.communities img{
+    width: 66px;
+    height: 66px;
+}
+
+.icon-yellow{
+    box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+    width: 66px;   
+    height: 66px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(154.49deg, #FFD085 6.61%, #FFAF2E 89.72%);
+    box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+    border-radius: 24px;
+}
+
+.icon-red{
+    box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
+    width: 66px;   
+    height: 66px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(154.49deg, #FF858A 6.61%, #F04148 89.72%);
+    border-radius: 24px;
+}
+
+.icon-blue{
+    box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+    width: 66px;   
+    height: 66px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(154.49deg, #5CA1FE 6.61%, #217BF4 89.72%);
+    box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+    border-radius: 24px;
+}
+
+@media (max-width: 600px){
+
+    .our-community-link{
+        font-size: 13px;
+    }
+
+    .our-community h2{
+        font-size: 25px;
+        padding-bottom: 7px;
+    }
+
+    .our-community-text{
+        font-size: 12px;
+        line-height: 15px;
+        width: 300px;
+    }
+
+    .communities-container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .communities{
+        width: 320px;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+    .communities h3{
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        padding-left: 20px;
+    }
+
+    .communities p{
+        font-size: 12px;
+        line-height: 13px;
+        padding-right: 18px;
+        padding-left: 20px;
+        padding-bottom: 12px;
+    }
+
+    .icon-yellow{
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .icon-red{
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .icon-blue{
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+    }
+
+    .communities img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-custom-module{
+        margin-bottom: 29px;
+    }
+}
