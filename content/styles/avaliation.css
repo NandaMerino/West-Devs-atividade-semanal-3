@@ -198,7 +198,7 @@
     padding-bottom: 38px;
 }
 
-button{
+.btn-discover {
     background-color: #217BF4;
     color: #FFFFFF;
     cursor: pointer;   
@@ -344,7 +344,7 @@ button{
         text-align: center;
     }
 
-    button{
+    .achievement button{
         width: 130px;
         height: 40px;
         font-size: 12px;
