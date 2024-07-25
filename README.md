@@ -20,9 +20,9 @@ Para clonar o repositório e executar o projeto localmente, siga os seguintes pa
    ```
 
 2. Navegue até o diretório do projeto:
-```bash
-cd West-Devs-atividade-semanal-3
-```
+   ```bash
+   cd West-Devs-atividade-semanal-3
+   ```
 
 3. Abra o arquivo index.html no seu navegador.
 
