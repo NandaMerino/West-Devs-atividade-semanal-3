@@ -40,7 +40,7 @@ Para clonar o repositório e executar o projeto localmente, siga os seguintes pa
 - **Rafael** - [Rafael Alves de Oliveira](https://github.com/rafascript)
 
 
-  ## Status do Projeto
+## Status do Projeto
 Este projeto está finalizado.
 
 ## GitHub Pages
