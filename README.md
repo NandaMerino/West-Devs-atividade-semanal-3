@@ -30,7 +30,7 @@ cd West-Devs-atividade-semanal-3
 
 - `content/`: Contém os arquivos e diretórios relacionados ao conteúdo do projeto.
 - `index.html`: Arquivo HTML principal do projeto.
-- `README.md: Este arquivo de documentação.
+- `README.md`: Este arquivo de documentação.
 
 ## Autores
 - **Bruno** - [Bruno Vieira Nobre](https://github.com/BrunoV7)
